@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="images/favicon.ico" sizes="32x32">
+    <title>Ayyub Fashion Lane</title>
+    <link rel="stylesheet" href="css/style-starter.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/myScript.js"></script>
+
+    <style type="text/css">
+        .gallery-title
+        {
+            font-size: 36px;
+            /*    color: #42B32F;*/
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 70px;
+        }
+        .gallery-title:after {
+            content: "";
+            position: absolute;
+            width: 7.5%;
+            left: 46.5%;
+            height: 45px;
+            border-bottom: 1px solid #5e5e5e;
+        }
+        .filter-button
+        {
+            font-size: 18px;
+            border: 1px solid #42B32F;
+            border-radius: 5px;
+            text-align: center;
+            color: #42B32F;
+            margin-bottom: 30px;
+
+        }
+        .filter-button:hover
+        {
+            font-size: 18px;
+            /*    border: 1px solid #42B32F;*/
+            border-radius: 5px;
+            text-align: center;
+            /*    color: #ffffff;*/
+            /*    background-color: #42B32F;*/
+
+        }
+        .btn-default:active .filter-button:active
+        {
+            background-color: #42B32F;
+            color: white;
+        }
+        
+        .port-image
+        {
+            width: 100%;
+        }
+        
+        .gallery_product
+        {
+            margin-bottom: 30px;
+        }
+        .logo-image{
+            width: 46px;
+            height: 46px;
+            /*    border-radius: 50%;*/
+            overflow: hidden;
+            margin-top: -6px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg stroke px-0 pt-lg-0">
+                <a class="navbar-brand" href="/">
+                    <div class="logo-image">
+                        <img src="images/logo.png" class="img-fluid">
+                    </div>
+                </a>
+                <h1>
+                    <a class="navbar-brand" href="index.html">
+                        Ayyub<span class="logo-sub">FashionLane</a>
+                        </h1>
+
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mx-lg-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact US</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <!--/header-->
+
+    <!--/header-->
+    <div class="section-mid-gap"></div>
+    <!--/Banner-Start-->
+    <section class="bannerw3l-hnyv">
+        <div class="slider">
+
+            <div class="slide s--active">
+                <div class="slide__inner">
+                    <div class="slide__content">
+                        <h3 class="slide__heading">Men's Fashion
+                                60% Off</h3>
+                        <p class="slide__text">Mid season 50% Offer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//Banner-End-->
+
+    <!--/about-home-->
+    <section class="w3l-servicesblock py-5" id="about">
+        <div class="container py-lg-5 py-md-4 py-2" id="about">
+            <div class="row">
+                <div class="col-lg-4 mb-lg-0 mb-5 pr-lg-5">
+                    <img src="images/ab.jpg" alt="" class="img-fluid radius-image">
+                </div>
+                <div class="col-lg-8 about-right-faq align-self">
+                    <h6 class="title-subw3hny">About Us</h6>
+                    <h3 class="title-w3l mb-4">We have 13+ years of <span class="thin">experience.</span></h3>
+                    <div class="one-grids-hmew3">
+                        <p class="mt-3">Ayyub Fashion Lane - Retail Showroom of mens blazer & other products in Gulbarga, Karnataka.
+                        </p>
+
+                    </div>
+
+                    <div class="three-grids-hmew3 mt-5 pt-lg-3">
+                        <div class="three-grid-1 text-center">
+                            <img src="images/sherwani1.jpg" alt="" class="radius-image" width="200" height="240">
+                            <h4>Sherwani</h4>
+                        </div>
+                        <div class="three-grid-1 text-center">
+                            <img src="images/blazer.jpg" alt="" class=" radius-image" width="200" height="240">
+                            <h4>Blazer</h4>
+                        </div>
+                        <div class="three-grid-1 text-center">
+                            <img src="images/Kurta.WEBP" alt="" class="radius-image" width="200" height="240">
+                            <h4>Kurta</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--//about-home-->
+
+    <!-- image filter wedding -->
+
+    <div class="container">
+        <div class="row">
+            <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1 class="gallery-title">Wedding Style</h1>
+            </div>
+
+            <div align="center">
+                <button class="btn btn-default filter-button" data-filter="all">All</button>
+                <button class="btn btn-default filter-button" data-filter="sherwani">Sherwani</button>
+                <button class="btn btn-default filter-button" data-filter="blazer">Blazer</button>
+                <button class="btn btn-default filter-button" data-filter="jodhpuri">Jodhpuri</button>
+                <button class="btn btn-default filter-button" data-filter="suit">suit</button>
+            </div>
+            <br/>
+
+            <div class="row">
+                <div class="gallery_product col-sm-3 filter sherwani">
+                    <img src="images/WhatsApp Image 2024-10-20 at 11.28.04 AM.jpeg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter sherwani">
+                    <img src="images/a3.jpeg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter sherwani">
+                    <img src="images/WhatsApp Image 2024-10-20 at 11.28.01 AM.jpeg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter sherwani">
+                    <img src="images/WhatsApp Image 2024-10-20 at 11.57.27 AM.jpeg" height="350px" width="100%" class="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="gallery_product col-sm-3 filter blazer">
+                    <img src="images/b1.jpg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter blazer">
+                    <img src="images/b2.jpg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter blazer">
+                    <img src="images/b3.jpg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter blazer">
+                    <img src="images/b4.jpg" height="350px" width="100%" class="">
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="gallery_product col-sm-3  filter jodhpuri">
+                    <img src="images/j1.jpg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter jodhpuri">
+                    <img src="images/j2.jpg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter jodhpuri">
+                    <img src="images/j4.jpeg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter jodhpuri">
+                    <img src="images/j5.jpeg" height="350px" width="100%" class="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="gallery_product col-sm-3 filter suit">
+                    <img src="images/s5.jpeg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter suit">
+                    <img src="images/s6.jpeg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter suit">
+                    <img src="images/s3.jpeg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter suit">
+                    <img src="images/s4.jpeg" height="350px" width="100%" class="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- //image filter ends -->
+
+    <div class="container">
+
+        <div class="row" style=" background-color:#F4EFEB;">
+            <h4>Accessories</h4>
+
+            <div class="col-lg-2">
+                <img src="images/a1.jpeg" width="100%" height="200px" style="border-radius: 50%;">
+                <h5 style="text-align: center;">Pagdi</h5>
+            </div>
+
+            <div class="col-lg-2">
+                <img src="images/a3.jpeg" width="100%" height="200px" style="border-radius: 50%;">
+                <h5 style="text-align: center;">Dupatta</h5>
+
+            </div>
+            <div class="col-lg-2">
+                <img src="images/a4.jpeg" width="100%" height="200px" style="border-radius: 50%;">
+                <h5 style="text-align: center;">Tie</h5>
+
+            </div>
+            <div class="col-lg-2">
+                <img src="images/a5.jpeg" width="100%" height="200px" style="border-radius: 50%;">
+                <h5 style="text-align: center;">Mala</h5>
+
+            </div>
+            <div class="col-lg-2">
+                <img src="images/a6.jpeg" width="100%" height="200px" style="border-radius: 50%;">
+                <h5 style="text-align: center;">Bow</h5>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+
+    <!-- casual image filter -->
+
+    <div class="container">
+        <div class="row">
+            <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1 class="gallery-title">Casual Style</h1>
+            </div>
+
+            <div align="center">
+                <button class="btn btn-default filter-button" data-filter="all">All</button>
+                <button class="btn btn-default filter-button" data-filter="shirt">shirt</button>
+                <button class="btn btn-default filter-button" data-filter="pant">pant</button>
+                <button class="btn btn-default filter-button" data-filter="jacket">jacket</button>
+                <button class="btn btn-default filter-button" data-filter="kurta">kurta</button>
+            </div>
+            <br/>
+
+            <div class="row">
+                <div class="gallery_product col-sm-3 filter shirt">
+                    <img src="images/st1.jpg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter shirt">
+                    <img src="images/st2.jpg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter shirt">
+                    <img src="images/st3.jpg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter shirt">
+                    <img src="images/st4.jpg" height="350px" width="100%" class="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="gallery_product col-sm-3 filter pant">
+                    <img src="images/p1.jpg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter pant">
+                    <img src="images/p2.jpg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter pant">
+                    <img src="images/p3.jpg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter pant">
+                    <img src="images/p4.jpg" height="350px" width="100%" class="">
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="gallery_product col-sm-3  filter kurta">
+                    <img src="images/WhatsApp Image 2024-10-20 at 11.57.55 AM (1).jpeg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter kurta">
+                    <img src="images/WhatsApp Image 2024-10-20 at 11.57.55 AM.jpeg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter kurta">
+                    <img src="images/WhatsApp Image 2024-10-20 at 11.57.54 AM.jpeg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter kurta">
+                    <img src="images/WhatsApp Image 2024-10-20 at 11.57.56 AM.jpeg" height="350px" width="100%" class="">
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="gallery_product col-sm-3 filter jacket">
+                    <img src="images/jt1.jpg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter jacket">
+                    <img src="images/jt2.jpg" height="350px" width="100%" class="">
+                </div>
+
+                <div class="gallery_product col-sm-3 filter jacket">
+                    <img src="images/jt3.jpg" height="350px" width="100%" class="">
+                </div>
+                <div class="gallery_product col-sm-3 filter jacket">
+                    <img src="images/jt4.jpg" height="350px" width="100%" class="">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- casual image filter ends -->
+
+    <!-- contact -->
+    <section class="w3l-contact-1 py-5" id="contact">
+        <div class="contacts-9 py-lg-5 py-md-4">
+            <div class="container">
+                <div class="row contact-view">
+                    <div class="col-lg-6 cont-details mb-lg-0 mb-5 pr-lg-5">
+                        <h6 class="title-subw3hny">Get in touch</h6>
+                        <div class="cont-top">
+                            <div class="cont-left text-center">
+                                <span class="fas fa-phone-alt"></span>
+                            </div>
+                            <div class="cont-right">
+                                <h6>Phone number</h6>
+                                <p><a> +91 9845284568</a></p>
+                            </div>
+                        </div>
+                        <div class="cont-top margin-up">
+                            <div class="cont-left text-center">
+                                <span class="fas fa-envelope-open-text"></span>
+                            </div>
+                            <div class="cont-right">
+                                <h6>Send Email</h6>
+                                <p><a href="mailto:ayyubfashionlane@mail.com" class="mail">ayyubfashionlane@mail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="cont-top margin-up">
+                            <div class="cont-left text-center">
+                                <span class="fas fa-map-marked-alt"></span>
+                            </div>
+                            <div class="cont-right">
+                                <h6>Shop Address</h6>
+                                <p class="pr-lg-5">Address here, 1st floor laxmi market cloth bazar, Karnataka 585101.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- /contact -->
+
+    <div class="map-iframe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487666.99141270417!2d76.50938296920484!3d17.27215107591301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc8c708aca1e2b3%3A0xcd98db65c7350a97!2sAYYUB%20FASHION%20LANE!5e0!3m2!1sen!2sin!4v1736442237121!5m2!1sen!2sin"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="400" frameborder="0" style="border: 0px;" allowfullscreen=""></iframe>
+    </div>
+
+    <section class="w3l-footer-29-main">
+
+        <div class="bottom-copies text-center">
+            <div class="container">
+                <p class="copy-footer-29">© 2024 Ayyub Fashion Lane. All rights reserved | Designed by Ayyub</p>
+            </div>
+        </div>
+
+        <!-- move top -->
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+            <span class="fa fa-angle-up"></span>
+        </button>
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function () {
+                    scrollFunction()
+                };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        document.getElementById("movetop").style.display = "block";
+                    } else {
+                        document.getElementById("movetop").style.display = "none";
+                    }
+                }
+
+            // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+        </script>
+        <!-- //move top -->
+    </section>
+
+    <!-- Template JavaScript -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/theme-change.js"></script>
+
+    <!--light-box-files -->
+    <!-- <script src="js/jquery-3.7.1.js"></script> -->
+    <script src="js/jquery.chocolat.js"></script>
+    <script type="text/javascript ">
+        $(function () {
+                $('.w3_agile_portfolio_grid a').Chocolat();
+            });
+    </script>
+    <!-- /js for portfolio lightbox -->
+    <!-- stats number counter-->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.js"></script>
+    <script>
+        $('.counter').countUp();
+    </script>
+    <!-- //stats number counter -->
+
+
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+                $('.navbar-toggler').click(function () {
+                    $('body').toggleClass('noscroll');
+                })
+            });
+    </script>
+    <script type="text/javascript">
+        $(".nav .nav-link").on("click", function(){
+                $(".nav").find(".active").removeClass("active");
+                $(this).addClass("active");
+            });
+    </script>
+    <!-- disable body scroll which navbar is in active -->
+
+    <!--/MENU-JS-->
+    <script>
+        $(window).on("scroll", function () {
+                var scroll = $(window).scrollTop();
+
+                if (scroll >= 80) {
+                    $("#site-header").addClass("nav-fixed");
+                } else {
+                    $("#site-header").removeClass("nav-fixed");
+                }
+            });
+
+        //Main navigation Active Class Add Remove
+            $(".navbar-toggler").on("click", function () {
+                $("header").toggleClass("active");
+            });
+            $(document).on("ready", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+                $(window).on("resize", function () {
+                    if ($(window).width() > 991) {
+                        $("header").removeClass("active");
+                    }
+                });
+            });
+    </script>
+    <!--//MENU-JS-->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
